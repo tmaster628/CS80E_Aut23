@@ -3,7 +3,7 @@ TARGETS = list
 #ARCH = -m32
 #CXXBASE = clang++
 CXXBASE = g++
-CXX = $(CXXBASE) $(ARCH) -std=c++20
+CXX = $(CXXBASE) $(ARCH) 
 CC = $(CXX)
 CXXFLAGS = -ggdb -O -Wall -Werror 
 
